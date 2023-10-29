@@ -180,6 +180,9 @@ html{
 
 #footer-text{
     border-top:1.2px solid white;
+    border-bottom:hidden;
+    border-left:hidden;
+    border-right:hidden;
     box-shadow: 0 6px 10px 5px rgb(7, 96, 110,0.4);
     background-color:rgb(7, 96, 110,0.4);
     border-radius: 6%;
@@ -209,8 +212,9 @@ html{
     padding-top:35px;
 }
 
+
 #boton-arriba{
-    width:10px;
+    width:0px;
 }
 
 #boton-arriba img{
@@ -220,4 +224,22 @@ html{
     bottom:50px;
     right:50px;
     position:fixed;
+}
+@media screen and (max-width:1212px){
+    #footer-text{
+        padding-top:10px;
+        height: 116px;
+    }
+    #creator{
+        padding-top:10px;
+        padding-right:35px;
+    }
+    #boton-arriba img{
+        border-radius:100%;
+        box-shadow: 0 0 12px rgb(65, 200, 221);
+        width:40px;
+        bottom:100px;
+        right:60px;
+        position:fixed;
+    }
 }
