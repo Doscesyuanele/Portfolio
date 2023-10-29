@@ -228,6 +228,14 @@ html{
 
 
 @media screen and (max-width:900px){
+    html{
+        background-image: linear-gradient(rgb(20, 39, 47,0.85), rgb(20, 39, 47,0.85)), url(fotos/fondo.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
     #navbar{
         width:95%;
         display:flex;
