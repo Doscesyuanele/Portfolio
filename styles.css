@@ -290,13 +290,21 @@ html{
     }
     #projects-fondo{
         width:100%;
+        height:100%;
+        padding-top:20px;
+        padding-bottom:20px;
     }
     #projects-fondo h1{
         width:100%;
-        font-size:30px;
+        font-size:20px;
         display:flex;
         justify-content: center;
         align-items:center;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    #titulo-linea{
+        padding-top:0;
     }
     #projects{
         padding:0;
@@ -321,6 +329,4 @@ html{
         margin-left:10px;
         margin-right:10px;
     }
-
-
 }
