@@ -1,0 +1,223 @@
+html{
+    font-family: 'Roboto Mono', monospace;
+    background-image: linear-gradient(rgb(20, 39, 47,0.85), rgb(20, 39, 47,0.85)), url(fotos/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+#navbar{
+    background-color:rgb(7, 96, 110);
+    /* background-color:rgb(98, 7, 110); */
+    display:flex;
+    justify-content:end;
+    position:fixed;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+
+#navbar a{
+    color:white;
+    text-decoration: none;
+    margin-left:30px;
+    font-size:20px;
+}
+
+#welcome-section{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    text-align:center;
+    padding-top:400px;
+    padding-bottom:400px;
+}
+
+#welcome-section h1{
+    font-size:70px;
+    font-weight:800;
+    margin:0;
+}
+
+#welcome-section h3{
+    font-size:30px;
+    margin:0;
+    font-weight: 200;
+    font-style:italic;
+    color:rgb(65, 200, 221);
+
+}
+
+#projects-fondo{
+    background-color:rgba(4, 52, 59, 0.554);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    text-align:center;
+    padding-bottom:80px;
+    left:0;
+    right:0;
+}
+
+#titulo-linea{
+    font-size:36px;
+    padding-top:60px;
+    display:flex;
+    justify-content:center;
+}
+
+#titulo-linea h1{
+    padding-bottom:20px;
+    border-bottom:1px solid white;
+}
+
+#projects{
+    margin-left:150px;
+    margin-right:150px;
+    margin-top:40px;
+    padding-bottom:60px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+#box-projects{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    height:auto;
+    flex-direction: row;
+    margin:20px;
+    width:auto;
+    overflow: hidden;
+    border-radius: 2%;
+}
+
+
+#projects img{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    width: 280px;
+    margin-bottom:20px;
+}
+
+#projects a{
+    justify-content:center;
+    background-color:rgb(7, 96, 110);
+    padding-bottom:20px;
+    text-decoration: none;
+    color:white;
+    display: grid;
+
+}
+
+#profile-box {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    flex-wrap:wrap;
+    height:600px;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+#profile-box  h1{
+    font-size:66px;
+    margin-bottom:0;
+    display:flex;
+    text-align: center;
+    justify-content:center;
+}
+
+#profile-box  p{
+    margin-top:10px;
+    margin-bottom:80px;
+    font-size:20px;
+    font-weight: 200;
+    font-style:italic;
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+
+#profile-links{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-wrap:wrap;
+    text-align:center;
+}
+
+#profile-links img{
+    width:22px;
+    height:22px;
+    margin-right:8px;
+    display:flex;
+    align-items:center;
+    margin-top:2px;
+}
+
+#profile-links a{
+    text-decoration:none;
+    font-size:20px;
+    display:flex;
+    color:white;
+    margin-left:40px;
+    margin-right:4px;
+    margin-bottom:20px;
+}
+
+
+
+#footer-text{
+    border-top:1.2px solid white;
+    box-shadow: 0 6px 10px 5px rgb(7, 96, 110,0.4);
+    background-color:rgb(7, 96, 110,0.4);
+    border-radius: 6%;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    padding-right:40px;
+    padding-left:40px;
+    height:80px;
+}
+
+#quote{
+    display:flex;
+    justify-content:left;
+    flex-direction:column;
+    flex-wrap:wrap;
+    text-align:left;
+    padding-right:100px;
+}
+
+#creator{
+    display:flex;
+    justify-content:right;
+    flex-wrap:wrap;
+    text-align:left;
+    padding-left:40px;
+    padding-top:35px;
+}
+
+#boton-arriba{
+    width:10px;
+}
+
+#boton-arriba img{
+    border-radius:100%;
+    box-shadow: 0 0 12px rgb(65, 200, 221);
+    width:40px;
+    bottom:50px;
+    right:50px;
+    position:fixed;
+}
